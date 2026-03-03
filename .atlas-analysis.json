@@ -1,0 +1,236 @@
+{
+  "projectType": "framework",
+  "projectName": "Flutter",
+  "projectDescription": "Google's SDK for building beautiful, fast user experiences across mobile, web, and desktop from a single codebase",
+  "theme": "palm",
+  "primaryColor": "#02569B",
+  "lightColor": "#0175C2",
+  "darkColor": "#013A6B",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core/architecture",
+              "core/framework-overview",
+              "core/engine-architecture",
+              "core/widgets",
+              "core/state-management",
+              "core/rendering",
+              "core/layered-architecture"
+            ]
+          },
+          {
+            "group": "Building UI",
+            "pages": [
+              "ui/material-design",
+              "ui/cupertino-design",
+              "ui/animations",
+              "ui/gestures",
+              "ui/layouts",
+              "ui/custom-painting"
+            ]
+          },
+          {
+            "group": "Platform Integration",
+            "pages": [
+              "platform/overview",
+              "platform/android",
+              "platform/ios",
+              "platform/web",
+              "platform/desktop",
+              "platform/platform-channels",
+              "platform/plugins"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/hot-reload",
+              "development/debugging",
+              "development/testing",
+              "development/performance",
+              "development/devtools"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "CLI Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "cli/overview"
+            ]
+          },
+          {
+            "group": "Project Commands",
+            "pages": [
+              "cli/create",
+              "cli/run",
+              "cli/build",
+              "cli/test",
+              "cli/analyze",
+              "cli/clean"
+            ]
+          },
+          {
+            "group": "Build Commands",
+            "pages": [
+              "cli/build-apk",
+              "cli/build-appbundle",
+              "cli/build-ios",
+              "cli/build-web",
+              "cli/build-linux",
+              "cli/build-macos",
+              "cli/build-windows"
+            ]
+          },
+          {
+            "group": "Environment Commands",
+            "pages": [
+              "cli/doctor",
+              "cli/upgrade",
+              "cli/downgrade",
+              "cli/channel",
+              "cli/config",
+              "cli/precache"
+            ]
+          },
+          {
+            "group": "Device Commands",
+            "pages": [
+              "cli/devices",
+              "cli/emulators",
+              "cli/attach",
+              "cli/install"
+            ]
+          },
+          {
+            "group": "Debug Commands",
+            "pages": [
+              "cli/logs",
+              "cli/screenshot",
+              "cli/symbolize",
+              "cli/drive"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Framework API",
+        "groups": [
+          {
+            "group": "Core Libraries",
+            "pages": [
+              "api/overview",
+              "api/widgets",
+              "api/material",
+              "api/cupertino"
+            ]
+          },
+          {
+            "group": "Foundation",
+            "pages": [
+              "api/foundation",
+              "api/animation",
+              "api/painting",
+              "api/gestures"
+            ]
+          },
+          {
+            "group": "Rendering",
+            "pages": [
+              "api/rendering",
+              "api/scheduler",
+              "api/semantics"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "api/services",
+              "api/platform-services"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contributing",
+        "groups": [
+          {
+            "group": "Get Involved",
+            "pages": [
+              "contributing/overview",
+              "contributing/setup",
+              "contributing/style-guide",
+              "contributing/tree-hygiene"
+            ]
+          },
+          {
+            "group": "Development Process",
+            "pages": [
+              "contributing/design-documents",
+              "contributing/issue-hygiene",
+              "contributing/code-review",
+              "contributing/testing"
+            ]
+          },
+          {
+            "group": "Repository",
+            "pages": [
+              "contributing/repository-architecture",
+              "contributing/glossary",
+              "contributing/values"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Cross-platform UI framework for mobile, web, and desktop",
+    "Hot reload for instant code changes",
+    "Rich widget catalog with Material and Cupertino designs",
+    "Hardware-accelerated 2D graphics with Skia and Impeller",
+    "Comprehensive CLI tooling for development workflow",
+    "Layered architecture with customizable rendering",
+    "Platform channels for native code integration",
+    "Extensive testing and debugging tools"
+  ],
+  "publicApiSurface": [
+    "flutter.widgets",
+    "flutter.material",
+    "flutter.cupertino",
+    "flutter.foundation",
+    "flutter.animation",
+    "flutter.painting",
+    "flutter.gestures",
+    "flutter.rendering",
+    "flutter.services",
+    "flutter.scheduler",
+    "flutter.semantics",
+    "flutter create",
+    "flutter run",
+    "flutter build",
+    "flutter test",
+    "flutter analyze",
+    "flutter doctor",
+    "flutter upgrade",
+    "flutter channel",
+    "flutter devices",
+    "flutter emulators"
+  ]
+}
